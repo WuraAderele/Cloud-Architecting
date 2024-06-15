@@ -15,7 +15,7 @@
   - Story - A card where users read a story and respond to questions or scenarios based on the content
   - Crossword - A card featuring a crossword puzzle with questions related to their course, making learning fun and interactive 
 * Teachers can create accounts and upload learning content
-* * Teachers have access to analytics dashboard relevant metrics related to their content such as number of views, learner engagement, feedback, etcetera
+* Teachers have access to analytics dashboard relevant metrics related to their content such as number of views, learner engagement, feedback, etcetera
 * Business owners can create accounts and host shops where they sell different cultural artifacts referenced in the different lessons
 * Listings in shops come with detailed descriptions and stories to help buyers understand the cultural significance of purchases
 * Buyers can create accounts, navigate through the shops and purchase artifacts. Buyers do not have to be learners
