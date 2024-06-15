@@ -1,1 +1,35 @@
+# DEFINING SLIs AND SLOs FOR APPLICATION FEATURES
+SLIs refer to Service Level Indicators and are quantitative measures of some aspect of the level of service provided.
+
+SLOs refer to Service Level Objectives and specify agreed ranges or targets for a given SLI over a certain time period.
+
+| User Story | SLO | SLI |
+| --------- | --- | ---- |
+| Account Creation | Available 99.9% | Fraction of 200 vs 500 HTTP responses from account creation endpoint measured per month |
+| Account Creation | 95% of requests will complete in under 300 ms | Time to last byte POST requests to account creation endpoint measured every 15 seconds, aggregated per 5 minutes |
+| Subscription Tiers | Available 99.9% | Fraction of 200 vs 500 HTTP responses from subscription endpoint measured per month |
+| Subscription Tiers | 95% of requests will complete in under 200 ms | Time to last byte POST requests to subscription endpoint measured every 15 seconds, aggregated per 5 minutes |
+| Access to Learning Content | Available 99.9% | Fraction of 200 vs 500 HTTP responses from learning content endpoint measured per month |
+| Access to Learning Content | 95% of requests will complete in under 300 ms | Time to last byte GET requests to learning content endpoint measured every 15 seconds, aggregated per 5 minutes |
+| Streak Tracker | Available 99.9% | Fraction of 200 vs 500 HTTP responses from streak tracker endpoint measured per month |
+| Content Sugesstions| Relevant suggestions 95% of the time	 | Click-through rate (CTR) on suggested content, measured daily |
+| Customized "For You" Page	| 95% of requests complete in under 500 ms	| Time to last byte for "For You" page requests, measured every 10 seconds, aggregated per minute |
+| Content Upload | Available 99.9%	| Fraction of 200 vs 500 HTTP responses from content upload endpoint measured per month |
+| Content Upload | 95% of uploads complete in under 500 ms	| Time to last byte for content upload requests measured every 15 seconds, aggregated per 5 minutes |
+| Content Upload | Error rate of < 0.00001% | Upload errors measured as a percentage of bulk uploads per day by custom metric |
+| Analytics Dashboard | Data updated within 5 minutes 99% of the time	| Time to update analytics data after content interaction, measured every minute |
+| Shop Hosting | Available 99.9%	| Fraction of 200 vs 500 HTTP responses from the shop hosting endpoint measured per month |
+| Shop Hosting | 95% of shop updates complete in under 300 ms	| Time to last byte for shop update requests measured every 15 seconds, aggregated per 5 minutes |
+| Shop Hosting	| Error rate of < 0.00001%	| Upload errors measured as a percentage of bulk shop listings per day by custom metric |
+| Content Integration	| Relevant content references 95% of the time	| Click-through rate (CTR) from content to shop items, measured daily |
+| Shop Navigation	| Available 99.9%		| Fraction of 200 vs 500 HTTP responses from the shop navigation endpoint measured per month |
+| Shop Navigation	| 95% of navigation requests complete in under 300 ms	| Time to last byte for navigation requests measured every 10 seconds, aggregated per minute |
+| Secure Transactions |	Transactions processed within 2 minutes 99.9% of the time	| Time to process transactions, measured every minute |
+| Secure Transactions	| Available 99.9%	| Fraction of 200 vs 500 HTTP responses from transaction endpoint measured per month |
+| Detailed Artifact Descriptions |	Descriptions load within 1 second 99% of the time	| Time to last byte for artifact description requests, measured every 10 seconds, aggregated per minute |
+| Community Interaction |	Available 99.9%	| Fraction of 200 vs 500 HTTP responses from community interaction (forum posts, comments) endpoints measured per month |
+
+
+
+
 
