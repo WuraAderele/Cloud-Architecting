@@ -18,7 +18,8 @@
 * Teachers have access to analytics dashboard relevant metrics related to their content such as number of views, learner engagement, feedback, etcetera
 * Business owners can create accounts and host shops where they sell different cultural artifacts referenced in the different lessons
 * Listings in shops come with detailed descriptions and stories to help buyers understand the cultural significance of purchases
-* Buyers can create accounts, navigate through the shops and purchase artifacts. Buyers do not have to be learners
+* Buyers can create accounts and navigate through the shops to view listed items. Buyers do not have to be learners
+* Buyers can add items to a shopping cart, view the cart, update quantities, and proceed to checkout
 * Community/Forum where learners, teachers, business owners, and buyers can interact, share experiences, and discuss cultural topics, enhancing engagement across all user types
 
 ## 👩‍💻 Users
@@ -88,9 +89,13 @@ As a business owner, I want my artifacts to be referenced in lessons, so that le
 
 As a buyer, I want to create an account and navigate through shops to purchase artifacts, so that I can easily find and buy unique cultural items.
 
+**Shopping Cart**
+
+As a buyer, I want to add items to a shopping cart, view the cart, update quantities, and proceed to checkout, so that I can manage my purchases and complete transactions efficiently.
+
 **Secure Transactions**
 
-As a buyer, I want secure payment options and reliable shipping, so that I can trust the platform and receive my purchases safely.
+As a buyer, I want secure payment options, so that I can trust the platform and make secure purchases.
 
 **Detailed Artifact Descriptions**
 
