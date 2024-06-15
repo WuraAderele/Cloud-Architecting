@@ -1,7 +1,6 @@
 # Configuring a Scalable Nginx Web Server Infrastructure
 
 ## Scenario
-Scenario
 As a Junior Cloud Engineer for Jooli, Inc., the organization has put forward the below request:
 
 The company wants to serve a website via nginx web servers, but also wants to ensure that the environment is fault-tolerant. Create an HTTP load balancer with a managed instance group of 2 nginx web servers. Use the following code to configure the web servers; the team will replace this with their own configuration later:
