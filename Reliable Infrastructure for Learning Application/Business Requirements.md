@@ -28,15 +28,19 @@
 
 ### User Personas
 **Sade**
+
 Sade is a xenophile who is passionate about learning different cultures, especially her own and those of neighboring countries.She enjoys discovering new traditions, languages, and practices. Her goal is to deepen her understanding of sub-saharan cultures through interactive content that will keep her motivated and engaged throughout the learning process. Her biggest struggle has been finding reliable and comprehensive resources on cultural knoweldge.
 
 **Chuks**
+
 Chuks is an educator with a deep knowledge of Sub-Saharan African history and cultural practices. He has some experience teaching and creating educational content. His goal is to contribute to the preservation and dissemination of cultural knowledge.
 
 **Hamza**
+
 Hamza is a business owner who creates and sells local craft items and is trying to expand his business by reaching a broader customer base. He also enjoys educating customers about the cultural heritage of his products.
 
 **Idara**
+
 Idara is an individual that has a keen eye for aesthetics and values the cultural significance of artifacts. She frequently purchases crafts for house decoration, gifts, and souvenirs. Her primary focus include finding unique and authentic cutltural artifacts, supporting artisans, and preserving cultural heritage.
 
 ### User Stories
