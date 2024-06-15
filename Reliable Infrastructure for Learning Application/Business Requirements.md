@@ -1,4 +1,4 @@
-# BUSINESS REQUIREMENTS DEFINITION
+# 📝 BUSINESS REQUIREMENTS DEFINITION
 
 ## Brief Description
 **NWA Teacher** is an indigenous startup that is focused on solving the problem of how cultural knowledge can be harnessed, practices, and passed down effectively in Sub-Saharan countries. NWA Teacher wants to build a scalable web learning platform that will serve a regional customer base.
