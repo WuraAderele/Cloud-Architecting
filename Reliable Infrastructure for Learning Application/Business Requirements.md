@@ -3,7 +3,7 @@
 ## 📝 Brief Description
 **NWA Teacher** is an indigenous startup that is focused on solving the problem of how cultural knowledge can be harnessed, practices, and passed down effectively in Sub-Saharan countries. NWA Teacher wants to build a scalable web learning platform that will serve a regional customer base.
 
-## Main Features
+## 🧰 Main Features
 * Learners can create accounts and specify their topic interests and preferences
 * Learners can subscribe to access video and text content
 * Pricing will be available in different tiers - Monthly, Quarterly, or Annual
@@ -21,7 +21,7 @@
 * Buyers can create accounts, navigate through the shops and purchase artifacts. Buyers do not have to be learners
 * Community/Forum where learners, teachers, business owners, and buyers can interact, share experiences, and discuss cultural topics, enhancing engagement across all user types
 
-##👩‍💻 Users
+## 👩‍💻 Users
 * Learners
 * Teachers
 * Business Owners
