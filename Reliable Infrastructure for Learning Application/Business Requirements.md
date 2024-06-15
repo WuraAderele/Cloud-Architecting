@@ -1,6 +1,6 @@
-# 📝 BUSINESS REQUIREMENTS DEFINITION
+# 📋 BUSINESS REQUIREMENTS DEFINITION
 
-## Brief Description
+## 📝 Brief Description
 **NWA Teacher** is an indigenous startup that is focused on solving the problem of how cultural knowledge can be harnessed, practices, and passed down effectively in Sub-Saharan countries. NWA Teacher wants to build a scalable web learning platform that will serve a regional customer base.
 
 ## Main Features
@@ -21,26 +21,26 @@
 * Buyers can create accounts, navigate through the shops and purchase artifacts. Buyers do not have to be learners
 * Community/Forum where learners, teachers, business owners, and buyers can interact, share experiences, and discuss cultural topics, enhancing engagement across all user types
 
-## Users
+##👩‍💻 Users
 * Learners
 * Teachers
 * Business Owners
 * Buyers
 
 ### User Personas
-**Sade**
+**🧑‍🎓 Sade**
 
 Sade is a xenophile who is passionate about learning different cultures, especially her own and those of neighboring countries. She enjoys discovering new traditions, languages, and practices. Her goal is to deepen her understanding of sub-saharan cultures through interactive content that will keep her motivated and engaged throughout the learning process. Her biggest struggle has been finding reliable and comprehensive resources on cultural knoweldge.
 
-**Chuks**
+**🧑‍🏫 Chuks**
 
 Chuks is an educator with a deep knowledge of Sub-Saharan African history and cultural practices. He has some experience teaching and creating educational content. His goal is to contribute to the preservation and dissemination of cultural knowledge.
 
-**Hamza**
+**🧑‍🎨 Hamza**
 
 Hamza is a business owner who creates and sells local craft items and is trying to expand his business by reaching a broader customer base. He also enjoys educating customers about the cultural heritage of his products.
 
-**Idara**
+**🛒 Idara**
 
 Idara is an individual that has a keen eye for aesthetics and values the cultural significance of artifacts. She frequently purchases crafts for house decoration, gifts, and souvenirs. Her primary focus include finding unique and authentic cutltural artifacts, supporting artisans, and preserving cultural heritage.
 
