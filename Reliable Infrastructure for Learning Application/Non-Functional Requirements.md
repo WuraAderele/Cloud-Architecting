@@ -24,6 +24,8 @@ SLOs refer to Service Level Objectives and specify agreed ranges or targets for 
 | Content Integration	| Relevant content references 95% of the time	| Click-through rate (CTR) from content to shop items, measured daily |
 | Shop Navigation	| Available 99.9%		| Fraction of 200 vs 500 HTTP responses from the shop navigation endpoint measured per month |
 | Shop Navigation	| 95% of navigation requests complete in under 300 ms	| Time to last byte for navigation requests measured every 10 seconds, aggregated per minute |
+| Shopping Cart | Available 99.9%	| Fraction of 200 vs 500 HTTP responses from shopping cart endpoint measured per month |
+| Shopping Cart	| 95% of requests complete in under 300 ms |	Time to last byte for shopping cart requests measured every 10 seconds, aggregated per minute |
 | Secure Transactions |	Transactions processed within 2 minutes 99.9% of the time	| Time to process transactions, measured every minute |
 | Secure Transactions	| Available 99.9%	| Fraction of 200 vs 500 HTTP responses from transaction endpoint measured per month |
 | Detailed Artifact Descriptions |	Descriptions load within 1 second 99% of the time	| Time to last byte for artifact description requests, measured every 10 seconds, aggregated per minute |
