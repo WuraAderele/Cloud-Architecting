@@ -7,7 +7,6 @@
 * Learners can create accounts and specify their topic interests and preferences
 * Learners can subscribe to access video and text content
 * Pricing will be available in different tiers - Monthly, Quarterly, or Annual
-* Learners can earn certificates after completing lessons
 * Learners learning activity is tracked using an automatic streak tracker. A streak is counted when a user completes a text lesson or watches a video lesson for at least 15 minutes
 * Learning content should be suggested to new and existing learners based on their activity and defined preferences
 * Learners have access to a cutomized "For You" Page to keep them engaged and motivated. It includes several interactive and informative features like:
@@ -18,7 +17,9 @@
 * Teachers can create accounts and upload learning content
 * * Teachers have access to analytics dashboard relevant metrics related to their content such as number of views, learner engagement, feedback, etcetera
 * Business owners can create accounts and host shops where they sell different cultural artifacts referenced in the different lessons
-* Buyers can create accounts, navigate through the shops and purchase artifacts. Buyers do not have to be learners.
+* Listings in shops come with detailed descriptions and stories to help buyers understand the cultural significance of purchases
+* Buyers can create accounts, navigate through the shops and purchase artifacts. Buyers do not have to be learners
+* Community/Forum where learners, teachers, business owners, and buyers can interact, share experiences, and discuss cultural topics, enhancing engagement across all user types
 
 ## Users
 * Learners
@@ -29,7 +30,7 @@
 ### User Personas
 **Sade**
 
-Sade is a xenophile who is passionate about learning different cultures, especially her own and those of neighboring countries.She enjoys discovering new traditions, languages, and practices. Her goal is to deepen her understanding of sub-saharan cultures through interactive content that will keep her motivated and engaged throughout the learning process. Her biggest struggle has been finding reliable and comprehensive resources on cultural knoweldge.
+Sade is a xenophile who is passionate about learning different cultures, especially her own and those of neighboring countries. She enjoys discovering new traditions, languages, and practices. Her goal is to deepen her understanding of sub-saharan cultures through interactive content that will keep her motivated and engaged throughout the learning process. Her biggest struggle has been finding reliable and comprehensive resources on cultural knoweldge.
 
 **Chuks**
 
@@ -44,3 +45,44 @@ Hamza is a business owner who creates and sells local craft items and is trying 
 Idara is an individual that has a keen eye for aesthetics and values the cultural significance of artifacts. She frequently purchases crafts for house decoration, gifts, and souvenirs. Her primary focus include finding unique and authentic cutltural artifacts, supporting artisans, and preserving cultural heritage.
 
 ### User Stories
+**Account Creation and Preferences**
+As a learner, I want to create an account and specify my topic interests and preferences, so that I can receive personalized content tailored to my interests.
+
+**Account Creation and Content Upload**
+As a teacher, I want to create an account and upload my learning content, so that I can share my knowledge with a wider audience.
+
+**Account Creation and Shop Hosting**
+As a business owner, I want to create an account and host a shop where I can sell cultural artifacts, so that I can reach a wider customer base and increase sales.
+
+**Subscription Tiers**
+As a learner, I want to subscribe to different pricing tiers (Monthly, Quarterly, or Annual), so that I can choose a plan that fits my budget and learning needs.
+
+**Access to Learning Content**
+As a learner, I want to subscribe to access video and text content, so that I can learn about various cultural topics at my own pace.
+
+**Streak Tracker**
+As a learner, I want my learning activity to be tracked using an automatic streak tracker, so that I can stay motivated and maintain consistent learning habits.
+
+**Content Suggestions**
+As a learner, I want learning content to be suggested based on my activity and preferences, so that I can discover relevant and interesting topics.
+
+**Customized "For You" Page**
+As a learner, I want access to a customized "For You" Page with daily tips, trivia, stories, and crossword puzzles, so that I can stay engaged and enjoy a varied learning experience.
+
+**Analytics Dashboard**
+As a teacher, I want access to an analytics dashboard to see metrics related to my content, such as number of views, learner engagement, and feedback, so that I can improve my lessons and understand my audience better.
+
+**Content Integration**
+As a business owner, I want my artifacts to be referenced in lessons, so that learners can understand their cultural significance and be more inclined to purchase them.
+
+**Account Creation and Shop Navigation**
+As a buyer, I want to create an account and navigate through shops to purchase artifacts, so that I can easily find and buy unique cultural items.
+
+**Secure Transactions**
+As a buyer, I want secure payment options and reliable shipping, so that I can trust the platform and receive my purchases safely.
+
+**Detailed Artifact Descriptions**
+As a buyer, I want detailed descriptions and stories behind each artifact, so that I can appreciate their cultural significance and make informed purchasing decisions.
+
+**Community Interaction**
+As a user (learner, teacher, business owner, or buyer), I want to participate in community discussions and forums, so that I can share experiences, ask questions, and connect with others interested in cultural knowledge.
