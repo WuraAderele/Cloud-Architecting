@@ -20,7 +20,7 @@ Joolo, Inc.leverages Google Cloud Platform for their infrastructure needs. An op
 A client makes a connection to the IP address and port of the Load Balancer's forwarding rule. A forwarding rule and its corresponding IP address represent the front-end configuration of a Load balancer. The forwarding rule routes the request to a specified target proxy. 
 The target proxy receives the client request and compares the request's destination IP address & port to what is configured in the forwarding rule. If a match is found, the target proxy terminates the client's network connection and establishes a new one  to the appropriate backend as determined by the Load Balancer's URL Map.
 
-### Creating Rescources in GCP and Setting up Infrastructure
+### Creating Resources in GCP and Setting up Infrastructure
 To get started, log into Google Cloud Console and Activate Cloud Shell.
 
 Jooli, Inc. hosts all their resources in US-West-4 Region and US-West-4b so we run the below command to set the default zone and region in Cloud Shell:
