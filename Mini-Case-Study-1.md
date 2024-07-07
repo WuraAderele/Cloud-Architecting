@@ -8,11 +8,12 @@ The primary goal was to configure an environment that serves a website via Nginx
 
 This project involved using various skills and technologies, including:
 
-* Google Cloud Platform (GCP): For provisioning and managing cloud resources.
-* Nginx: As the web server to serve the website.
-* Load Balancing: To distribute incoming traffic across multiple web servers.
-* Shell Scripting: For automating the configuration and setup of the web servers.
-* The case study demonstrates the ability to design, implement, and manage scalable cloud infrastructure, ensuring reliability and efficient load distribution.
+* **Google Cloud Platform (GCP):** For provisioning and managing cloud resources.
+* **Nginx:** As the web server to serve the website.
+* **Load Balancing:** To distribute incoming traffic across multiple web servers.
+* **Shell Scripting:** For automating the configuration and setup of the web servers.
+
+Overall, the case study demonstrates the ability to design, implement, and manage scalable cloud infrastructure, ensuring reliability and efficient load distribution.
 
 ## 📃 Detailed Scenario
 
