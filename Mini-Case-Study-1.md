@@ -16,6 +16,7 @@ This project involved using various skills and technologies, including:
 
 
 ## Detailed Scenario
+
 Jooli, Inc. is a rapidly growing technology company specializing in providing innovative web solutions to a diverse clientele. 
 
 As the company scales its operations, it faces the challenge of ensuring that its web services remain highly available and resilient to failures. 
@@ -31,6 +32,7 @@ The primary motivation behind this project was to enhance the company’s web se
 * Scalability: Easily scale the number of web servers based on demand.
 
 **Specific Requirements and Constraints**
+
 To address these objectives, Jooli, Inc. outlined the following requirements and constraints for the project:
 
 * **Region and Zone:** All resources must be hosted in the US-West4 region and US-West4b zone to optimize latency and comply with data residency requirements.
@@ -67,45 +69,12 @@ This entire setup ensures that traffic is evenly distributed across multiple ser
 
 **Infrastructure Diagram**
 
-                      +-----------------------+
-                      |    Client Request     |
-                      +----------+------------+
-                                 |
-                                 v
-                 +-----------------------------+
-                 |    HTTP(S) Load Balancer    |
-                 +--------------+--------------+
-                                |
-        +-----------------------+-----------------------+
-        |                                               |
-        v                                               v
-+----------------------+                     +----------------------+
-|  Target HTTP Proxy   |                     |  Target HTTP Proxy   |
-+----------+-----------+                     +----------+-----------+
-           |                                          |
-           v                                          v
-+--------------------------+              +--------------------------+
-|        URL Map           |              |        URL Map           |
-+-----------+--------------+              +-----------+--------------+
-            |                                 |
-            v                                 v
-+---------------------------+   +---------------------------+
-|      Backend Service      |   |      Backend Service      |
-|       (nginx-backend)     |   |       (nginx-backend)     |
-+------------+--------------+   +------------+--------------+
-             |                                |
-             v                                v
-+---------------------------+   +---------------------------+
-|   Managed Instance Group  |   |   Managed Instance Group  |
-|       (nginx-group)       |   |       (nginx-group)       |
-|   +-------------------+   |   |   +-------------------+   |
-|   |    Nginx Server 1 |   |   |   |    Nginx Server 2 |   |
-|   +-------------------+   |   |   +-------------------+   |
-+---------------------------+   +---------------------------+
 
+**Creating Resources in GCP and Setting up Infrastructure**
 
-### Creating Resources in GCP and Setting up Infrastructure
-To get started, log into Google Cloud Console and Activate Cloud Shell.
+To get started:
+* Log into Google Cloud Console in a web browser
+* Activate Cloud Shell by clicking the "Activate Cloud Shell button" at the top right of the console. This opens a terminal window at the bottom of the console.
 
 Jooli, Inc. hosts all their resources in US-West-4 Region and US-West-4b so we run the below command to set the default zone and region in Cloud Shell:
 
@@ -113,7 +82,7 @@ Jooli, Inc. hosts all their resources in US-West-4 Region and US-West-4b so we r
       
       gcloud config set compute/zone us-west4-b
 
-Run below command in Cloud Shell to save the configuration code to a startup.sh file
+Next, create a startup script that will be used to configure the Nginx web servers. Run the following command to save the configuration code to a startup.sh file:
 
       cat << EOF > startup.sh
       #! /bin/bash
@@ -132,11 +101,7 @@ Run below command and parameters to create an instance template. Specify the sta
       gcloud compute instance-templates create nginx-template \
       --metadata-from-file startup-script=startup.sh
 
-A target pool is a group of instances that receive incoming traffic from Load Balancers and forwarding rules. 
-
-When a forwarding rule directs traffic to a target pool, Cloud Load Balancing chooses an instance from the target pool based on a hash of the source and destination IP and port. 
-
-Run below command to create a target pool in the same region as the instances.
+Create the target pool to group instances that will receive incoming traffic from the load balancer:
 
       gcloud compute target-pools create nginx-pool
 
@@ -150,20 +115,20 @@ Run below command to create an instance group of at least 2 VMs that will host t
       --template nginx-template \
       --target-pool nginx-pool
 
-Run below command to specify the ports to be used by the instances in the instance group
+Run below command to specify the ports to be used by the instances in the instance group:
 
       gcloud compute instance-groups managed set-named-ports nginx-group --named-ports http:80
 
-Run below command to create a firewall rule that allows ingress traffic from TCP port 80.
+Run below command to create a firewall rule that allows ingress traffic from TCP port 80:
       
       gcloud compute firewall-rules create permit-tcp-rule-685 \
       --allow tcp:80
 
-Run below command to create a health check resource that will help determine whether backend instances are responding properly to traffic
+Run below command to create a health check resource that will help determine whether backend instances are responding properly to traffic:
 
       gcloud compute http-health-checks create basic-check
 
-Run below command to create a backend service that will handle all client requests and specify the created health check resource
+Run below command to create a backend service that will handle all client requests and specify the created health check resource:
 
       gcloud compute backend-services create nginx-backend \
       --protocol HTTP  \
@@ -171,27 +136,44 @@ Run below command to create a backend service that will handle all client reques
       --http-health-checks basic-check 
       --global
 
-Run below command to add the nginx-group instances as the backend service
+Run below command to add the nginx-group instances as the backend service:
 
       gcloud compute backend-services add-backend nginx-backend \
       --instance-group nginx-group \
       --instance-group-zone us-west4-b\
       --global
 
-Run below command to create a URL map to route the incoming requests to the created backend service
+Run below command to create a URL map to route the incoming requests to the created backend service:
       
       gcloud compute url-maps create web-map \
       --default-service nginx-backend
 
-Run below command to create a target HTTP proxy to route requests to the created URL map
+Run below command to create a target HTTP proxy to route requests to the created URL map:
 
       gcloud compute target-http-proxies create web-proxy \
       --url-map web-map
 
-Run the below command to create a global forwarding rule to route incoming requests to the created proxy
+Run the below command to create a global forwarding rule to route incoming requests to the created proxy:
 
       gcloud compute forwarding-rules create web-forwarding-rule \
       --global \
       --target-http-proxy web-proxy \
       --ports=80
+
+Each of these steps ensures that the infrastructure is set up correctly, providing a fault-tolerant and scalable Nginx web server environment. You can verify the setup by accessing the load balancer's IP address in your browser to see if the Nginx welcome page is displayed, indicating successful configuration.
+
+### Conclusion
+This project has prepared me for managing cloud infrastructure projects, either as a Technical Program Manager or a Cloud Architect, by providing practical experience with essential cloud services and infrastructure design principles. 
+
+It has enhanced my problem-solving skills and ability to design scalable, reliable, and secure cloud-based solutions.
+
+
+
+
+
+
+
+
+
+
 
