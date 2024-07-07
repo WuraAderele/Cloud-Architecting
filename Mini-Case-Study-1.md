@@ -69,10 +69,9 @@ An external HTTP(S) Load Balancer distributes incoming HTTP(S) traffic across mu
 This entire setup ensures that traffic is evenly distributed across multiple servers, providing redundancy and improving the application's overall reliability. 
 
 **📷 Infrastructure Diagram**
-
-
 <p align = "center">
-  <img src="https://drive.google.com/file/d/1wTub4QsCgg1lfpEl9MK9JmXKESNiwiIC/view?usp=drive_link"  width = "132" height = "763"/>
+  ![image](https://github.com/WuraAderele/Cloud-Architecting/assets/94797745/b2f1863a-d456-4c38-9781-0db712f1010d)
+
 
 **☁️ Creating Resources in GCP and Setting up Infrastructure**
 
