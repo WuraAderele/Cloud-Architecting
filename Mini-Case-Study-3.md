@@ -37,7 +37,7 @@ Deploy the applicaation to the dev namespace by running below command:
 After successfully deploying the app to the dev namespace, we take a look at the node details via Google Cloud Console:
 
 <p align = "center">
-  <img src="https://cdn.qwiklabs.com/uYinv2VTYdTkOsSsWGkvXvD%2FmTd4IsJXz4vkrNyl9no%3D" width = "400" height = "200"/>
+  <img src="https://cdn.qwiklabs.com/uYinv2VTYdTkOsSsWGkvXvD%2FmTd4IsJXz4vkrNyl9no%3D" width = "400" height = "100"/>
 
 We come to the conclusion that we should make changes to the cluster's node pool:
 
