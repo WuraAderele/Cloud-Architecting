@@ -53,7 +53,7 @@ To address these objectives, Jooli, Inc. outlined the following requirements and
 By adhering to these requirements, the project aims to provide a robust infrastructure solution that meets Jooli, Inc.'s operational needs and supports its growth trajectory.
 
 ## 🎯 Solution
-**How an external HTTP(S) Load Balancer works**
+**🕹️ How an external HTTP(S) Load Balancer works**
 
 An external HTTP(S) Load Balancer distributes incoming HTTP(S) traffic across multiple backend instances to ensure high availability and reliability of web applications. Here is a detailed explanation of how it operates:
 
