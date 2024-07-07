@@ -1,6 +1,6 @@
-# Configuring a Scalable Nginx Web Server Infrastructure
+# 💻 Configuring a Scalable Nginx Web Server Infrastructure
 
-## Introduction
+## 📑 Introduction
 
 In this case study, I implemented a scalable Nginx web server infrastructure for Jooli, Inc. 
 
@@ -14,8 +14,7 @@ This project involved using various skills and technologies, including:
 * Shell Scripting: For automating the configuration and setup of the web servers.
 * The case study demonstrates the ability to design, implement, and manage scalable cloud infrastructure, ensuring reliability and efficient load distribution.
 
-
-## Detailed Scenario
+## 📃 Detailed Scenario
 
 Jooli, Inc. is a rapidly growing technology company specializing in providing innovative web solutions to a diverse clientele. 
 
@@ -23,7 +22,7 @@ As the company scales its operations, it faces the challenge of ensuring that it
 
 The company’s current infrastructure was not designed to handle the increasing load and required improvements to meet the demands of its growing user base.
 
-**Motivation Behind the Project**
+**♟️ Motivation Behind the Project**
 
 The primary motivation behind this project was to enhance the company’s web server infrastructure by implementing a fault-tolerant and scalable solution. The key objectives were:
 
@@ -31,7 +30,7 @@ The primary motivation behind this project was to enhance the company’s web se
 * Load Distribution: Distribute incoming traffic evenly across multiple web servers to prevent any single server from being overwhelmed.
 * Scalability: Easily scale the number of web servers based on demand.
 
-**Specific Requirements and Constraints**
+**🧩 Specific Requirements and Constraints**
 
 To address these objectives, Jooli, Inc. outlined the following requirements and constraints for the project:
 
@@ -53,7 +52,7 @@ To address these objectives, Jooli, Inc. outlined the following requirements and
 * **Load Balancer:** Set up an external HTTP load balancer to route incoming traffic to the web servers.
 By adhering to these requirements, the project aims to provide a robust infrastructure solution that meets Jooli, Inc.'s operational needs and supports its growth trajectory.
 
-## Solution
+## 🎯 Solution
 **How an external HTTP(S) Load Balancer works**
 
 An external HTTP(S) Load Balancer distributes incoming HTTP(S) traffic across multiple backend instances to ensure high availability and reliability of web applications. Here is a detailed explanation of how it operates:
@@ -69,10 +68,10 @@ An external HTTP(S) Load Balancer distributes incoming HTTP(S) traffic across mu
 
 This entire setup ensures that traffic is evenly distributed across multiple servers, providing redundancy and improving the application's overall reliability. 
 
-**Infrastructure Diagram**
+**📷 Infrastructure Diagram**
 
 
-**Creating Resources in GCP and Setting up Infrastructure**
+**☁️ Creating Resources in GCP and Setting up Infrastructure**
 
 To get started:
 * Log into Google Cloud Console in a web browser
@@ -164,7 +163,7 @@ Run the below command to create a global forwarding rule to route incoming reque
 
 Each of these steps ensures that the infrastructure is set up correctly, providing a fault-tolerant and scalable Nginx web server environment. You can verify the setup by accessing the load balancer's IP address in your browser to see if the Nginx welcome page is displayed, indicating successful configuration.
 
-### Conclusion
+### ✍️ Conclusion
 This project has prepared me for managing cloud infrastructure projects, either as a Technical Program Manager or a Cloud Architect, by providing practical experience with essential cloud services and infrastructure design principles. 
 
 It has enhanced my problem-solving skills and ability to design scalable, reliable, and secure cloud-based solutions.
