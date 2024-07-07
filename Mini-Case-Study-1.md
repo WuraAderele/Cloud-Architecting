@@ -72,7 +72,7 @@ This entire setup ensures that traffic is evenly distributed across multiple ser
 
 
 <p align = "center">
-  <img src="https://drive.google.com/file/d/1wTub4QsCgg1lfpEl9MK9JmXKESNiwiIC/view?usp=drive_link"/>
+  <img src="https://drive.google.com/file/d/1wTub4QsCgg1lfpEl9MK9JmXKESNiwiIC/view?usp=drive_link"  width = "132" height = "763"/>
 
 **☁️ Creating Resources in GCP and Setting up Infrastructure**
 
