@@ -37,7 +37,7 @@ Deploy the applicaation to the dev namespace by running below command:
 After successfully deploying the app to the dev namespace, we take a look at the node details via Google Cloud Console:
 
 <p align = "center">
-  <img src="https://cdn.qwiklabs.com/uYinv2VTYdTkOsSsWGkvXvD%2FmTd4IsJXz4vkrNyl9no%3D" width = "400" height = "400"/>
+  <img src="https://cdn.qwiklabs.com/uYinv2VTYdTkOsSsWGkvXvD%2FmTd4IsJXz4vkrNyl9no%3D" width = "400" height = "200"/>
 
 We come to the conclusion that we should make changes to the cluster's node pool:
 
@@ -109,8 +109,8 @@ Lastly, we will run a load test to simulate traffic surge:
 
 After running this command, we observed our workloads on Google Cloud Console and monitored how the cluster handles the traffic spikes. We can see the recommendationservice struggling from increased demand so we apply horizontal pod autoscaling to the recommendationservice deployment.
 
-kubectl autoscale deployment recommendationservice \
---cpu-percent=50 \
---min=1 \
---max=5
+        kubectl autoscale deployment recommendationservice \
+        --cpu-percent=50 \
+        --min=1 \
+        --max=5
 
