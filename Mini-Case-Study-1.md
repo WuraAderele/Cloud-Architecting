@@ -39,6 +39,7 @@ To address these objectives, Jooli, Inc. outlined the following requirements and
 * **Nginx Web Servers:** Use Nginx as the web server to serve the company’s website.
 * **Managed Instance Group:** Create a managed instance group consisting of two Nginx web servers to ensure redundancy and load distribution.
 * **Automated Configuration:** Utilize the below startup script to automate the installation and configuration of Nginx on the web servers.
+  
           cat << EOF > startup.sh
         #! /bin/bash
         apt-get update
@@ -46,6 +47,7 @@ To address these objectives, Jooli, Inc. outlined the following requirements and
         service nginx start
         sed -i -- 's/nginx/Google Cloud Platform - '"\$HOSTNAME"'/' /var/www/html/index.nginx-debian.html
         EOF
+  
 * **Health Checks:** Implement health checks to monitor the status of the web servers and ensure they are responding correctly to traffic.
 * **Firewall Rules:** Configure firewall rules to allow HTTP traffic on port 80.
 * **Load Balancer:** Set up an external HTTP load balancer to route incoming traffic to the web servers.
