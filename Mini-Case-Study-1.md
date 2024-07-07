@@ -70,7 +70,7 @@ This entire setup ensures that traffic is evenly distributed across multiple ser
 
 **📷 Infrastructure Diagram**
 <p align = "center">
-  <img src="https://github.com/WuraAderele/Cloud-Architecting/assets/94797745/b2f1863a-d456-4c38-9781-0db712f1010d")
+  <img src="https://github.com/WuraAderele/Cloud-Architecting/assets/94797745/b2f1863a-d456-4c38-9781-0db712f1010d") />
 
 
 **☁️ Creating Resources in GCP and Setting up Infrastructure**
