@@ -71,6 +71,9 @@ This entire setup ensures that traffic is evenly distributed across multiple ser
 **📷 Infrastructure Diagram**
 
 
+<p align = "center">
+  <img src="https://drive.google.com/file/d/1wTub4QsCgg1lfpEl9MK9JmXKESNiwiIC/view?usp=drive_link"/>
+
 **☁️ Creating Resources in GCP and Setting up Infrastructure**
 
 To get started:
