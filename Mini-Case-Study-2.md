@@ -126,7 +126,7 @@ There are already two existing instances named tf-instance-1 and tf-instance-2. 
 * Boot Disk Image - debian-11-bullseye-v20240611
 * Machine Type - e2-micro
 
- first, we add the module reference into the main.tf file and then re-initialize Terraform.
+ First, we add the module reference into the main.tf file and then re-initialize Terraform.
 
       module "instances" {
           source = "./modules/instances"
