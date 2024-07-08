@@ -460,7 +460,7 @@ We create a firewall rule resource in the main.tf file.
           source_ranges = ["0.0.0.0/0"]
         }
 
-Initialize terraform and apply the changes to create the networks
+Initialize terraform and apply the changes to create the networks:
 
         terraform init
         
