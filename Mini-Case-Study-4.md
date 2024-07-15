@@ -2,9 +2,32 @@
 
 ## 📑 Introduction
 
+The purpose of this case study is to demonstrate my expertise in cloud engineering and Kubernetes, specifically within the context of setting up a development environment for a new team at Jooli, Inc.
+
+As a cloud engineer at Jooli, Inc., I was tasked with creating a robust and scalable development infrastructure using Google Cloud Platform (GCP) services and Kubernetes. This project required the utilization of various skills and technologies, including GCP, shell scripting, Kubernetes cluster management, and MySQL database setup.
+
 ## 📃 Detailed Scenario
 
+Jooli, Inc. is a forward-thinking technology company that continuously seeks to innovate and streamline its operations. The company recently onboarded a new team, Griffin, to work on a critical project involving the use of WordPress. The Griffin team has started setting up their environment but needed expert assistance to complete it efficiently and effectively.
+
+There are several specific requirements and constraints provided by Jooli, Inc.:
+
+* All resources have to be created in the us-east1 region and us-east1-c zone to maintain consistency and optimize network performance.
+* The project was under strict budget monitoring, and resource allocation has to be cost-effective, with a preference for using e2-medium machine types unless otherwise directed.
+* Standard naming conventions should be followed, typically using the format team-resource (e.g., griffin-webserver1).
+* The infrastructure needs to include a development VPC with subnets, a production VPC with subnets, a bastion host connected to both VPCs, a Cloud SQL instance configured for WordPress, and a Kubernetes cluster to host the WordPress environment.
+* Security and access management are crucial, requiring the creation of firewall rules and provision of access for an additional engineer.
+  
+This case study outlines the steps taken to meet these requirements and successfully set up the development environment for the Griffin team.
+
 ## 🎯 Solution
+
+### Summary
+
+<p align = "center">
+  <img src="https://cdn.qwiklabs.com/UE5MydlafU0QvN7zdaOLo%2BVxvETvmuPJh%2B9kZxQnOzE%3D" />
+
+
 
 Run below commands to set the enviroment variables:
 
@@ -113,4 +136,10 @@ Now that we have provisioned the MySQL database, and set up the secrets and volu
 
 First, we edit the wp-deployment.yaml to include the instance connection name of the Cloud SQL instance.
 
+       vi wp-k8s/wp-deployment.yaml
 
+Save and verify the changes to the file before proceeding to deploy the word press by running the bellow commands:
+
+      kubectl apply -f wp-env.yaml
+      kubectl apply -f wp-deployment.yaml
+      kubectl apply -f wp-service.yaml
