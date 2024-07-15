@@ -22,7 +22,7 @@ This case study outlines the steps taken to meet these requirements and successf
 
 ## 🎯 Solution
 
-The end goal is for to set up an environment that looks like this:
+The end goal is for to set up an environment with resources that interact as shown below:
 
 <p align = "center">
   <img src="https://cdn.qwiklabs.com/UE5MydlafU0QvN7zdaOLo%2BVxvETvmuPJh%2B9kZxQnOzE%3D" />
@@ -101,12 +101,12 @@ While these firewall rules are necessary for enabling SSH access, they also expo
 We want to create a MySQL Cloud Instance called griffin-dev-db in the us-east1 region. This database will be configured to serve the WordPress environment. The setup includes creating a WordPress database, a dedicated user (wp_user), and granting appropriate privileges to ensure secure and efficient database operations.
 
 To achieve this, we will use the interactive Google Console and take the following steps:
-* Navigate to the Cloud SQL option
-* Click CREATE INSTANCE > Choose MySQL
+* Navigate to the **Cloud SQL** option
+* Click **CREATE INSTANCE** > Choose **MySQL**
 * Enter instance id as griffin-dev-db
 * Enter a secure password in the **Password**
 * Select the database version, Cloud SQL Edition, Preset
-* Click CREATE INSTANCE
+* Click **CREATE INSTANCE**
 
 Next, we want to set up auth for the Cloud SQL instance. We will achieve that in the following steps:
 
