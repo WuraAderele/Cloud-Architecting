@@ -2,7 +2,7 @@
 
 ## 📑 Introduction
 
-The purpose of this case study is to demonstrate my expertise in cloud engineering and Kubernetes, specifically within the context of setting up a development environment for a new team at Jooli, Inc.
+The purpose of this case study is to demonstrate my expertise in cloud architecting and Kubernetes, specifically within the context of setting up a development environment for a new team at Jooli, Inc.
 
 As a cloud engineer at Jooli, Inc., I was tasked with creating a robust and scalable development infrastructure using Google Cloud Platform (GCP) services and Kubernetes. This project required the utilization of various skills and technologies, including GCP, shell scripting, Kubernetes cluster management, and MySQL database setup.
 
