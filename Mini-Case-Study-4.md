@@ -1,4 +1,4 @@
-# 💻 Develop your Google Cloud Network
+# 💻 Cloud-Enabled WordPress Deployment and Infrastructure Automation
 
 ## 📑 Introduction
 
