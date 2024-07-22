@@ -69,7 +69,7 @@ To create the two subnets in the production VPC, we run the below commands:
 ### Task 3 - Create a bastion host
 A bastion host is a server that acts as a security gateway to control access to a private network from an external network. 
 
-In thisi case study, we want to create a bastion host to facilitate secure access to both the development and production environment. This host has two network interfaces, each connected to the management subnet of the respective VPCs (griffin-dev-mgmt and griffin-prod-mgmt). The bastion host serves as a gateway for administrators to access internal resources securely.
+In this case study, we want to create a bastion host to facilitate secure access to both the development and production environment. This host has two network interfaces, each connected to the management subnet of the respective VPCs (griffin-dev-mgmt and griffin-prod-mgmt). The bastion host serves as a gateway for administrators to access internal resources securely.
 
 To do this, we use the Google Cloud Console and follow the below steps:
 * Navigate to **Navigation menu > Compute Engine > VM instances**.
