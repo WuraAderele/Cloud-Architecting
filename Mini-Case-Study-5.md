@@ -57,7 +57,7 @@ Now that we have that down, and we have confirmed that the Dockerfile is one on 
 ### Task 3. Push the image to the Google Container Registry
 Your organization has decided that it will always use the gcr.io Container Registry hostname for all projects. The sample application is a simple web application that reports some data describing the configuration of the system where the application is running. It is configured to use TCP port 8000 by default.
 
-A container registry is a tool that is used to store and distribute container images. In this case, we want to store the echo-app:v1 docker image in the gcr.iogcr.io/$DEVSHELL_PROJECT_ID container registry.
+A container registry is a tool that is used to store and distribute container images. In this case, we want to store the echo-app:v1 docker image in the gcr.io/$DEVSHELL_PROJECT_ID container registry.
 
 The docker push command uploads Docker images to a registry. This process is similar to sharing a pre-assembled software package with others. By pushing an image, you are sharing the complete setup of an application, including its required components. This allows others to access and deploy the application as a container in their environments. 
 
