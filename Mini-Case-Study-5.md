@@ -1,7 +1,7 @@
 # 💻 Build and Deploy a Docker Image to a Kubernetes Cluster
 
 ## 📑 Introduction
-In this case study, we deploy a simple web server containerized application to a Google Kubernetes Engine (GKE) cluster.
+In this case study, we deploy a simple web server containerized application to a Google Kubernetes Engine (GKE) cluster. We then ensure that the service is configured to respond to web requests on port 80, while the application runs on port 8000 inside the container.
 
 ## 📃 Challenge Scenario
 
